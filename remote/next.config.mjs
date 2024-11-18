@@ -9,6 +9,7 @@ const nextConfig = {
         filename: "static/chunks/remoteEntry.js",
         exposes: {
           "./Button": "./src/components/Button",
+          "./Input": "./src/components/Input",
         },
         shared: {
           react: { singleton: true, requiredVersion: false },
