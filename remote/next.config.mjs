@@ -10,6 +10,7 @@ const nextConfig = {
         exposes: {
           "./Button": "./src/components/Button",
           "./Input": "./src/components/Input",
+          "./ProductList": "./src/components/ProductList",
         },
         shared: {
           react: { singleton: true, requiredVersion: false },
